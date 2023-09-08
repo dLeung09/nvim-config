@@ -1,5 +1,6 @@
 local status, treesitter = pcall(require, "nvim-treesitter.configs")
 if not status then
+	print("Could not find nvim-treesitter.configs")
 	return
 end
 

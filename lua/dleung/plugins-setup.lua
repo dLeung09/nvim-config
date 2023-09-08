@@ -46,6 +46,12 @@ return packer.startup(function(use)
 	--  "ds<character>" removes <character
 	use("tpope/vim-surround")
 
+	-- Replace with contents of register
+	--  "gr<motion>" replace characters covered by <motion> with contents of unnamed register (i.e. the "clipboard")
+	--  "<count>grr" replace <count> lines (or current line if no <count> specified) with contents of unnamed register
+	--  "{Visual}gr" replace the Visual selection with contents of unnamed register
+	--
+	--      -> For each of the above, a specific register can be specified by identifying the register before "gr"
 	use("vim-scripts/ReplaceWithRegister")
 
 	-- commenting with gc
