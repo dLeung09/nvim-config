@@ -113,6 +113,9 @@ return packer.startup(function(use)
 	-- git signs plugin
 	use("lewis6991/gitsigns.nvim")
 
+	-- Codeium plugin (AI code suggestions)
+	use("Exafunction/codeium.vim")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
