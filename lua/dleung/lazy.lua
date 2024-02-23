@@ -16,7 +16,7 @@ require("lazy").setup({
   {import = "dleung.plugins.lsp"}
 }, {
   install = {
-    colorscheme = { "nightfly" },
+    colorscheme = { "kanagawa" },
   },
   checker = {
     enabled = true,

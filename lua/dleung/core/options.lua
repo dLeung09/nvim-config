@@ -39,3 +39,6 @@ opt.iskeyword:append("-")
 
 -- Use persistent history
 opt.undofile = true
+
+-- For Obsidian UI Support
+opt.conceallevel = 2
